@@ -14,6 +14,14 @@
 <body>
     <form id="form1" runat="server">
         <div style="text-align: center">
+
+            <br />
+            <br />
+            <asp:Button ID="ButtonGoToIndex" runat="server" PostBackUrl="~/Index.aspx" Text="Back to Index" />
+            <br />
+            <br />
+            <br />
+
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" CssClass="auto-style1" DataKeyNames="selectionID" DataSourceID="SqlDataSource1" Height="50px" Width="339px">
                 <Fields>
@@ -67,19 +75,18 @@
             <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:CMSConnectionString %>" SelectCommand="SELECT * FROM [Jokes]"></asp:SqlDataSource>
             <br />
             <br />
-            <asp:Button ID="ButtonChooseSelection" runat="server" OnClick="ButtonChooseSelection_Click" Text="Choose selection" />
+            <asp:Button ID="ButtonChooseSelection" runat="server" OnClick="ButtonChooseSelection_Click" Text="Apply Selection" />
             <br />
             <br />
             <asp:Label ID="LabelSelFeedback" runat="server"></asp:Label>
             <br />
             <br />
             <br />
-            <asp:Button ID="ButtonGoToUpld" runat="server" PostBackUrl="~/Upload.aspx" Text="Go to upload" />
+            <asp:Button ID="ButtonGoToUpld" runat="server" PostBackUrl="~/Upload.aspx" Text="Go to Upload" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="ButtonGoToEditor" runat="server" PostBackUrl="~/Editor.aspx" Text="Go To Editor" />
+            <asp:Button ID="ButtonGoToEditor" runat="server" PostBackUrl="~/Editor.aspx" Text="Go to Editor" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="ButtonGoToIndex" runat="server" PostBackUrl="~/Index.aspx" Text="Go to index" />
-        </div>
+            </div>
     </form>
 </body>
 </html>

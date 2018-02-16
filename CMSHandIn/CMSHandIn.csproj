@@ -66,9 +66,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\styleMaster.css">
+      <DependentUpon>styleMaster.scss</DependentUpon>
+    </Content>
+    <Content Include="App_Themes\styleMaster.min.css">
+      <DependentUpon>styleMaster.css</DependentUpon>
+    </Content>
     <Content Include="MasterPage.Master" />
     <Content Include="App_Themes\Skin1\Skin1.skin" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="packages.config" />
+    <Content Include="App_Themes\styleMaster.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

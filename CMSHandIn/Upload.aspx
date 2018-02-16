@@ -5,39 +5,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Upload page</title>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 14px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div style="text-align: center">
-            <asp:Button ID="Button2" runat="server" PostBackUrl="~/Index.aspx" Text="Go to Index" Width="169px" />
             <br />
             <br />
-            <asp:Label ID="Label1Upload" runat="server" Text="Upload new joke or picture"></asp:Label>
+            <br />
+            <asp:Button ID="Button2" runat="server" PostBackUrl="~/Index.aspx" Text="Back to Index" Width="160px" />
+            &nbsp;&nbsp;&nbsp;
             <br />
             <br />
-            <asp:Label ID="Label1Category" runat="server" Text="Category"></asp:Label>
             <br />
-            <asp:TextBox ID="TextBox1Category" runat="server"></asp:TextBox>
-            <br />
-            <br />
-            <asp:Label ID="Label1Headline" runat="server" Text="Headline"></asp:Label>
-            <br />
-            <asp:TextBox ID="TextBox1Headline" runat="server"></asp:TextBox>
+            <asp:Label ID="Label1Upload" runat="server" Text="Upload new image"></asp:Label>
             <br />
             <br />
-            <asp:Label ID="Label2" runat="server" Text="Picture link"></asp:Label>
-            <br />
-            <asp:FileUpload ID="FileUpload1" runat="server" Width="412px" />
             <br />
             <br />
-            <asp:Label ID="Label1Name" runat="server" Text="Name"></asp:Label>
-            <br />
-            <asp:TextBox ID="TextBox1Name" runat="server"></asp:TextBox>
+            <asp:FileUpload ID="FileUpload1" runat="server" Width="300px" />
             <br />
             <br />
-            <asp:Label ID="Label1Descr" runat="server" Text="Description"></asp:Label>
+            <asp:Label ID="Label1Name" runat="server" Text="File name"></asp:Label>
             <br />
-            <asp:TextBox ID="TextBox1Text" runat="server" Height="78px" Width="437px"></asp:TextBox>
+            <asp:TextBox ID="TextBox1Name" runat="server" Width="300px"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Label ID="Label1Descr" runat="server" Text="Caption"></asp:Label>
+            <br />
+            <asp:TextBox ID="TextBox1Text" runat="server" Height="50px" Width="300px" CssClass="auto-style1"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
             <br />
             <br />
@@ -50,8 +50,9 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" PostBackUrl="~/Editor.aspx" Text="Go to Editor" Width="169px" />
+            <asp:Button ID="Button1" runat="server" PostBackUrl="~/Editor.aspx" Text="Go to Editor" Width="160px" />
 &nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button3Select" runat="server" PostBackUrl="~/Select.aspx" Text="Go to Select" Width="160px" />
             <br />
             <br />
             <br />

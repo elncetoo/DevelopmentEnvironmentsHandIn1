@@ -5,14 +5,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Editor page</title>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            margin-left: 224px;
+        }
+        .auto-style3 {
+            margin-left: 447px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Label ID="Label1" runat="server" Text="Info edit"></asp:Label>
+        <div class="auto-style1">
             <br />
             <br />
-            <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="itemID" DataSourceID="SqlDataSource1" Width="731px">
+            <asp:Label ID="Label1" runat="server" Text="Edit information"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" PostBackUrl="~/Index.aspx" Text="Back To Index" />
+            <br />
+            <br />
+            <br />
+            <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="itemID" DataSourceID="SqlDataSource1" Width="1000px" CssClass="auto-style2" Height="342px">
                 <Columns>
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                     <asp:BoundField DataField="itemID" HeaderText="itemID" InsertVisible="False" ReadOnly="True" SortExpression="itemID" />
@@ -42,7 +58,7 @@
             </asp:SqlDataSource>
             <br />
             <br />
-            <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="itemID" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="483px">
+            <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="itemID" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="598px" CssClass="auto-style3">
                 <Fields>
                     <asp:BoundField DataField="itemID" HeaderText="itemID" InsertVisible="False" ReadOnly="True" SortExpression="itemID" />
                     <asp:BoundField DataField="category" HeaderText="category" SortExpression="category" />

@@ -22,40 +22,13 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.Repeater RepeaterMainItem;
         
         /// <summary>
-        /// LabelMainCategory control.
+        /// Image1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelMainCategory;
-        
-        /// <summary>
-        /// LabelMainHeadline control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelMainHeadline;
-        
-        /// <summary>
-        /// ImageMain control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageMain;
-        
-        /// <summary>
-        /// TextBoxMain control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxMain;
+        protected global::System.Web.UI.WebControls.Image Image1;
         
         /// <summary>
         /// RepeaterSecond control.
@@ -67,40 +40,13 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.Repeater RepeaterSecond;
         
         /// <summary>
-        /// LabelSecCategory control.
+        /// Image2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelSecCategory;
-        
-        /// <summary>
-        /// LabelSecHeadline control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelSecHeadline;
-        
-        /// <summary>
-        /// ImageSec control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageSec;
-        
-        /// <summary>
-        /// TextBoxSec control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSec;
+        protected global::System.Web.UI.WebControls.Image Image2;
         
         /// <summary>
         /// RepeaterThird control.
@@ -112,49 +58,13 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.Repeater RepeaterThird;
         
         /// <summary>
-        /// LabelThirdCategory control.
+        /// Image3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelThirdCategory;
-        
-        /// <summary>
-        /// LabelThirdHeadline control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelThirdHeadline;
-        
-        /// <summary>
-        /// ImageThird control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageThird;
-        
-        /// <summary>
-        /// TextBoxThird control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxThird;
-        
-        /// <summary>
-        /// ImageJoke control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageJoke;
+        protected global::System.Web.UI.WebControls.Image Image3;
         
         /// <summary>
         /// RepeaterJoke control.

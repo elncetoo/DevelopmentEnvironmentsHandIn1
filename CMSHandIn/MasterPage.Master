@@ -7,21 +7,19 @@
     <title>Master Page</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <style type="text/css">
-        .auto-style1 {
-            text-align: left;
-        }
-    </style>
+      <link href="~/App_Themes/styleMaster.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="header">
             <div id="headerTop">
-                <div id="companyName" class="auto-style1">
-                    <asp:Image ID="ImageLogo" runat="server" Height="77px" Width="87px" />
-&nbsp;&nbsp;&nbsp;
+                <div id="companyName" >
+                    <asp:Image ID="ImageLogo" runat="server" />
                     <asp:Label ID="LabelCompName" runat="server" Text=""></asp:Label>
-                &nbsp;<br />
+                </div>
+                <div id="hdr-txt">
+                    <br />
                     <asp:Label ID="LabelAuthor" runat="server" Text=""></asp:Label>
                     <asp:Label ID="LabelMssg" runat="server" Text=""></asp:Label>
                 </div>

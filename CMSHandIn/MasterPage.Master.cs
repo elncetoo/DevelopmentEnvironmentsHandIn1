@@ -30,7 +30,7 @@ namespace CMSHandIn
 
                 ImageLogo.ImageUrl = "~/Pictures/" + rdr["logo"].ToString();
                 LabelCompName.Text = rdr["headline"].ToString();
-                LabelAuthor.Text = "Author: " + rdr["author"].ToString();
+                LabelAuthor.Text = " Author: " + rdr["author"].ToString();
 
                 rdr.Close();
             }
