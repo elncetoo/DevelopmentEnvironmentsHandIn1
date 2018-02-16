@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="CMSHandIn.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <div id="headerTop">
+                <div id="companyName" class="auto-style1">
+                    <asp:Image ID="ImageLogo" runat="server" Height="77px" Width="87px" />
+&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="LabelCompName" runat="server" Text=""></asp:Label>
+                &nbsp;<br />
+                    <asp:Label ID="LabelAuthor" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="LabelMssg" runat="server" Text=""></asp:Label>
+                </div>
+            </div>
+        </div>
+        <div id="mainItem">
+            <div id="mainCategory">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="mainHeadline">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="mainPic">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="mainTxt">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="secondItem">
+            <div id="secCategory">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="secHeadline">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="secPic">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder7" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="secTxt">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder8" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="thirdItem">
+            <div id="thirdCategory">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder9" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="thirdHeadline">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder10" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+             <div id="thirdPic">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder11" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+             <div id="thirdTxt">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder12" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="jocke">
+             <div id="jockeHeadline">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder13" runat="server">
+                </asp:ContentPlaceHolder>
+             </div>
+             <div id="jockePic">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder14" runat="server">
+                </asp:ContentPlaceHolder>
+             </div>
+        </div>
+             <div>
+                <asp:ContentPlaceHolder ID="footer" runat="server">
+
+                </asp:ContentPlaceHolder>
+             </div>
+    </form>
+</body>
+</html>
