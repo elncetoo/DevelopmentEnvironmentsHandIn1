@@ -14,4 +14,4 @@ Default skin template. The following skins are provided as examples only.
 <asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
 --%>
 
-<asp:Label runat="server" SkinID="ItemHeadline" Font-Names="futurachapro" Font-Size="80px" />
+<asp:Label runat="server" SkinID="Label" Font-Names="futurachapro" Font-Size="80px" />
