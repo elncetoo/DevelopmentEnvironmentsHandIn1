@@ -2,7 +2,15 @@
 #companyName {
   font-family: futurachapro;
   font-size: 100px;
-  padding: 3% 1% 1% 3%; }
+  padding: 1% 1% 2% 3%; }
+
+.auth {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #d2a672;
+  margin: 0 0 0 75%;
+  padding: 0 0 2% 3%; }
 
 #ImageLogo {
   margin: -1% 1% -3% 33%;
@@ -12,20 +20,32 @@
   font-family: "Lato", sans-serif;
   font-size: medium;
   font-weight: 400;
-  background: bisque;
-  text-align: center;
+  background: #ffe4c4;
   padding-bottom: 1%;
-  height: 29px; }
+  height: 29px;
+  padding-left: 56%;
+  color: gray; }
+
+#main-wrap {
+  background-image: url("Pictures/bgr.jpg");
+  background-position: center;
+  background-size: cover; }
 
 .mytable {
-  display: flex; }
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
 
 .item {
-  padding: 3% 1% 1% 3%; }
+  padding: 1% 1% 1% 3%; }
 
 .item-h2 {
   font-family: futurachapro;
   font-size: 80px; }
+
+.item-h2-main {
+  padding-left: 32%;
+  width: 455px; }
 
 .item-cat {
   font-family: "Lato", sans-serif;
@@ -33,16 +53,35 @@
   font-weight: 400;
   color: #d2a672; }
 
+.item-cat-main {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding: 4% 1% 1% 67%;
+  margin-right: -6%; }
+
+.item-pic-main {
+  padding: 3% 1% 1% 33%; }
+
+.item-txt-main {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 554px;
+  margin: 1% 25%;
+  font-weight: 300;
+  opacity: 0.65;
+  background: white; }
+
 .item-txt {
   font-family: "Lato", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: 300;
   margin: 1% 13%; }
 
 .container {
   display: flex;
   flex-direction: column;
-  padding: 5% 0% 2% 1%; }
+  margin: 5% 0% 2% 1%; }
 
 #footer {
   background: #ffe4c4;
@@ -52,7 +91,7 @@
 .btn {
   font-family: Lato;
   color: #333;
-  font-size: 10px;
+  font-size: 13px;
   background: #ffe4c4;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -60,5 +99,10 @@
 
 .btn:hover {
   background: #e3e3e3;
+  text-decoration: none; }
+
+.gridview {
+  margin: 1% 1% 1% 13%;
+  font-weight: 300;
   text-decoration: none; }
 

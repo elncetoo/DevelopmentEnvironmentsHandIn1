@@ -10,25 +10,16 @@
 namespace CMSHandIn {
     
     
-    public partial class Select {
+    public partial class Selection {
         
         /// <summary>
-        /// form1 control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// ButtonGoToIndex control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGoToIndex;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
         /// DetailsView1 control.
@@ -49,13 +40,22 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
         
         /// <summary>
-        /// Label2Main control.
+        /// LabelSelFeedback control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2Main;
+        protected global::System.Web.UI.WebControls.Label LabelSelFeedback;
+        
+        /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
         /// DropDownListMain control.
@@ -76,13 +76,13 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
         
         /// <summary>
-        /// LabelSecond control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelSecond;
+        protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
         /// DropDownListSecond control.
@@ -94,13 +94,13 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.DropDownList DropDownListSecond;
         
         /// <summary>
-        /// LabelThird control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelThird;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
         /// DropDownListThird control.
@@ -112,13 +112,13 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.DropDownList DropDownListThird;
         
         /// <summary>
-        /// LabelJoke control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelJoke;
+        protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
         /// DropDownListJokes control.
@@ -148,30 +148,12 @@ namespace CMSHandIn {
         protected global::System.Web.UI.WebControls.Button ButtonChooseSelection;
         
         /// <summary>
-        /// LabelSelFeedback control.
+        /// LabelFooter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelSelFeedback;
-        
-        /// <summary>
-        /// ButtonGoToUpld control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGoToUpld;
-        
-        /// <summary>
-        /// ButtonGoToEditor control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGoToEditor;
+        protected global::System.Web.UI.WebControls.Label LabelFooter;
     }
 }

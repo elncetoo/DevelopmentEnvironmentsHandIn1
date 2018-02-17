@@ -7,10 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace CMSHandIn
 {
-    public partial class Upload : System.Web.UI.Page
+    public partial class Upload1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
 
         }
 

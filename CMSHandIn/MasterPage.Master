@@ -20,15 +20,27 @@
                 </div>
                 <div id="hdr-txt">
                     <br />
-                    <asp:Label ID="LabelAuthor" runat="server" Text=""></asp:Label>
-                    <asp:Label ID="LabelMssg" runat="server" Text=""></asp:Label>
+                    <div class="" style="margin: -2.5% 0% -6% -33%">
+                        <asp:Button ID="Button4" runat="server" PostBackUrl="~/Index.aspx" Text="Index" CssClass="btn" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button2" runat="server" PostBackUrl="~/Selection.aspx" Text="Select" CssClass="btn" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button3" runat="server" PostBackUrl="~/Upload.aspx" Text="Upload" CssClass="btn" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button1" runat="server" PostBackUrl="~/Admin.aspx" Text="Admin" CssClass="btn" />
+                    </div>
+                    <div style="margin: 2% 1% -8% 1%">
+                        <asp:Label ID="LabelAuthor" runat="server" CssClass="auth" ></asp:Label>
+                    </div>
+                       <div style="margin: 2% 1% -8% 1%">
+                        <asp:Label ID="LabelMssg" runat="server" Text=""></asp:Label>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="mainItem">
             <div id="mainCategory">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    
                 </asp:ContentPlaceHolder>
             </div>
             <div id="mainHeadline">

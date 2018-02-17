@@ -10,21 +10,15 @@ using System.Data.SqlClient;
 
 namespace CMSHandIn
 {
-    public partial class Select : System.Web.UI.Page
+    public partial class Selection : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void DetailsView1_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
-        {
-
-        }
-
         protected void ButtonChooseSelection_Click(object sender, EventArgs e)
         {
-            //UpdateCommand="UPDATE [Selection] SET [mainItem] = @mainItem, [secondItem] = @secondItem, [thirdItem] = @thirdItem, [jokeId] = @jokeId WHERE [selectionID] = @selectionID">
             SqlConnection conn = new SqlConnection(@"data source = .\sqlexpress; integrated security = true; database = CMS;");
             SqlCommand cmd = null;
             string sqlupd = "UPDATE[Selection] SET[mainItem] = @mainItem, [secondItem] = @secondItem, [thirdItem] = @thirdItem, [jokeId] = @jokeId WHERE[selectionID] = 2";
