@@ -93,7 +93,6 @@
     <Content Include="Pictures\bgr.jpg" />
     <Content Include="Selection.aspx" />
     <Content Include="Upload.aspx" />
-    <Content Include="Uploads.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -132,13 +131,6 @@
     </Compile>
     <Compile Include="Upload.aspx.designer.cs">
       <DependentUpon>Upload.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Uploads.aspx.cs">
-      <DependentUpon>Uploads.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Uploads.aspx.designer.cs">
-      <DependentUpon>Uploads.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

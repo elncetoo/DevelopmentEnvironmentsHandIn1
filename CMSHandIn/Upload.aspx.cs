@@ -34,12 +34,12 @@ namespace CMSHandIn
                 }
                 else
                 {
-                    Label1Feedback.Text = "New filename missing";
+                    Label1Feedback.Text = "New file name is missing";
                 }
             }
             else
             {
-                Label1Feedback.Text = "Wrong filename";
+                Label1Feedback.Text = "Wrong file name";
             }
         }
 
@@ -62,12 +62,12 @@ namespace CMSHandIn
                 }
                 else
                 {
-                    Label1Feedback.Text = "New filename missing";
+                    Label1Feedback.Text = "New file name missing";
                 }
             }
             else
             {
-                Label1Feedback.Text = "Wrong filename";
+                Label1Feedback.Text = "Wrong file name";
             }
         }
     }

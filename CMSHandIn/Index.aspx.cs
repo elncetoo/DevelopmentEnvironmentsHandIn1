@@ -31,26 +31,7 @@ namespace CMSHandIn
 
                 RepeaterMainItem.DataSource = rdr;
                 RepeaterMainItem.DataBind();
-
-                /*
-                SqlCommand cmd = new SqlCommand("SELECT * FROM [Selection]", conn);
-                SqlDataReader rdr = cmd.ExecuteReader();
-                rdr.Read();
-
-                string mainItem = rdr["mainItem"].ToString();
-                string secondItem = rdr["secondItem"].ToString();
-                string thirdItem = rdr["thirdItem"].ToString();
-                string jokeId = rdr["jokeId"].ToString();
-
-                LabelThirdCategory.Text = rdr["category"].ToString();
-                LabelThirdHeadline.Text = rdr["headline"].ToString();
-                ImageThird.ImageUrl = "~/Pictures/" + rdr["picture"];
-                TextBoxThird.Text = rdr["text"].ToString();
-
-                
-                rdr.Close();
-
-                 */
+               
             }
             catch (Exception ex)
             {

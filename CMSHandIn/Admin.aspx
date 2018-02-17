@@ -19,7 +19,7 @@
             <br />
             <br />
             <div class="auto-style1">
-            <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="itemID" DataSourceID="SqlDataSource1" Width="1000px" CssClass="gridview" Height="342px" Font-Names="lato" Font-Size="Medium" CellPadding="3" CellSpacing="1" ForeColor="#666666" style="margin-left: 270px" HorizontalAlign="Center">
+            <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="itemID" DataSourceID="SqlDataSource6" Width="1000px" CssClass="gridview" Height="342px" Font-Names="lato" Font-Size="Medium" CellPadding="3" CellSpacing="1" ForeColor="#666666" style="margin-left: 270px" HorizontalAlign="Center">
                 <AlternatingRowStyle BorderColor="#666699" Font-Size="Medium" HorizontalAlign="Center" />
                 <Columns>
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
@@ -41,6 +41,24 @@
                 <RowStyle HorizontalAlign="Center" />
                 <SelectedRowStyle HorizontalAlign="Center" VerticalAlign="Middle" />
             </asp:GridView>
+                <asp:SqlDataSource ID="SqlDataSource6" runat="server" ConnectionString="<%$ ConnectionStrings:CMSConnectionString %>" DeleteCommand="DELETE FROM [Items] WHERE [itemID] = @itemID" InsertCommand="INSERT INTO [Items] ([category], [headline], [picture], [text]) VALUES (@category, @headline, @picture, @text)" SelectCommand="SELECT * FROM [Items]" UpdateCommand="UPDATE [Items] SET [category] = @category, [headline] = @headline, [picture] = @picture, [text] = @text WHERE [itemID] = @itemID">
+                    <DeleteParameters>
+                        <asp:Parameter Name="itemID" Type="Int32" />
+                    </DeleteParameters>
+                    <InsertParameters>
+                        <asp:Parameter Name="category" Type="String" />
+                        <asp:Parameter Name="headline" Type="String" />
+                        <asp:Parameter Name="picture" Type="String" />
+                        <asp:Parameter Name="text" Type="String" />
+                    </InsertParameters>
+                    <UpdateParameters>
+                        <asp:Parameter Name="category" Type="String" />
+                        <asp:Parameter Name="headline" Type="String" />
+                        <asp:Parameter Name="picture" Type="String" />
+                        <asp:Parameter Name="text" Type="String" />
+                        <asp:Parameter Name="itemID" Type="Int32" />
+                    </UpdateParameters>
+                </asp:SqlDataSource>
             </div>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CMSConnectionString %>" DeleteCommand="DELETE FROM [Items] WHERE [itemID] = @itemID" InsertCommand="INSERT INTO [Items] ([category], [headline], [picture], [text]) VALUES (@category, @headline, @picture, @text)" SelectCommand="SELECT * FROM [Items]" UpdateCommand="UPDATE [Items] SET [category] = @category, [headline] = @headline, [picture] = @picture, [text] = @text WHERE [itemID] = @itemID">
                 <DeleteParameters>
@@ -136,7 +154,7 @@
 <asp:Content ID="Content13" ContentPlaceHolderID="ContentPlaceHolder12" runat="server">
 </asp:Content>
 <asp:Content ID="Content14" ContentPlaceHolderID="ContentPlaceHolder13" runat="server">
-   <div style="margin-left:47%; ">
+    <div style="margin-left:47%; ">
      <br />
       <asp:Image ID="Image1" src="Pictures/more.png" runat="server" Height="50px" />
    </div>

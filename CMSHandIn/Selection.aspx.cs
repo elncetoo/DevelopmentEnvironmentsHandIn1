@@ -43,7 +43,7 @@ namespace CMSHandIn
                 //to update the view
                 DetailsView1.DataBind();
 
-                LabelSelFeedback.Text = "Selection has been succesfully updated.";
+                LabelSelFeedback.Text = "Selection has been successfully updated.";
             }
             catch (Exception ex)
             {
